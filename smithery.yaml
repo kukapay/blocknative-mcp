@@ -1,0 +1,18 @@
+# Smithery configuration file: https://smithery.ai/docs/build/project-config
+
+startCommand:
+  type: stdio
+  commandFunction:
+    # A JS function that produces the CLI command based on the given config to start the MCP on stdio.
+    |-
+    (config) => ({ command: 'blocknative-mcp', args: [], env: config.blocknativeApiKey ? { BLOCKNATIVE_API_KEY: config.blocknativeApiKey } : {} })
+  configSchema:
+    # JSON Schema defining the configuration options for the MCP.
+    type: object
+    properties:
+      blocknativeApiKey:
+        type: string
+        default: ""
+        description: Optional Blocknative API key for high-frequency access
+  exampleConfig:
+    blocknativeApiKey: YOUR_BLOCKNATIVE_API_KEY
