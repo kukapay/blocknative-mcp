@@ -2,6 +2,7 @@
 
 An MCP server that provides real-time gas price predictions across multiple blockchains, powered by Blocknative.
 
+[![smithery badge](https://smithery.ai/badge/@kukapay/blocknative-mcp)](https://smithery.ai/server/@kukapay/blocknative-mcp)
 ![GitHub License](https://img.shields.io/github/license/kukapay/blocknative-mcp)
 ![Python Version](https://img.shields.io/badge/python-3.10+-blue)
 ![Status](https://img.shields.io/badge/status-active-brightgreen.svg)
@@ -25,6 +26,15 @@ An MCP server that provides real-time gas price predictions across multiple bloc
 
 ## Installation
 
+### Installing via Smithery
+
+To install Blocknative Gas Price Predictor for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@kukapay/blocknative-mcp):
+
+```bash
+npx -y @smithery/cli install @kukapay/blocknative-mcp --client claude
+```
+
+### Manual Installation
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/kukapay/blocknative-mcp.git
