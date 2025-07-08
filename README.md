@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/kukapay-blocknative-mcp-badge.png)](https://mseep.ai/app/kukapay-blocknative-mcp)
+
 # Blocknative MCP Server
 
 An MCP server that provides real-time gas price predictions across multiple blockchains, powered by Blocknative.
