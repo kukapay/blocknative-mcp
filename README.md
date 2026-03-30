@@ -17,6 +17,10 @@ An MCP server that provides real-time gas price predictions across multiple bloc
 - **Asynchronous**: Uses `httpx` for non-blocking HTTP requests to Blocknative's Gas Price and Chains APIs.
 - **Optional API Key**: Supports low-frequency access without a Blocknative API key; high-frequency use requires setting `BLOCKNATIVE_API_KEY`.
 
+## Hosted deployment
+
+A hosted deployment is available on [Fronteir AI](https://fronteir.ai/mcp/kukapay-blocknative-mcp).
+
 ## Prerequisites
 
 - **Python**: Version 3.10
